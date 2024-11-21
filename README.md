@@ -1,6 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is a [Finance-Saas](https://finance-liart.vercel.app/) project written by [Nextjs14](https://nextjs.org/) and React18.
 
-## Getting Started
+# Main Features
+
+- Build with Nextjs14
+- Data validator with zod
+- Authentication by clerk
+- Interactive dashboard page
+- Changeable chart types
+- Accounts and Date filters
+- Hono api interfaces
+- Custom React form
+- CSV file import
+- CSS with Tailwindcss and Shadcn UI
+- NenoDB and Drizzle ORM
+- Deployed on Vercel
+
+
+
+# How to Run
 
 First, run the development server:
 
@@ -16,21 +33,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Captures
+![](https://github.com/wangxinyang/finance-saas/blob/main/captures/Snipaste1.jpg)
+![](https://github.com/wangxinyang/finance-saas/blob/main/captures/Snipaste2.jpg)
+![](https://github.com/wangxinyang/finance-saas/blob/main/captures/Snipaste3.jpg)
+![](https://github.com/wangxinyang/finance-saas/blob/main/captures/Snipaste4.jpg)
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is distributed under the Apache-2.0 license.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+See [LICENSE](LICENSE) for details.
 
-## Deploy on Vercel
+Copyright 2024 Xinyang Wang
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+

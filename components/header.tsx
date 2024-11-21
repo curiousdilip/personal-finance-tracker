@@ -1,11 +1,12 @@
-"use client";
-import { UserButton, ClerkLoading, ClerkLoaded } from "@clerk/nextjs";
-import HeaderLogo from "./header-logo";
-import Navigation from "./navigation";
 import { Loader2 } from "lucide-react";
-import WelcomeMsg from "./welcome-msg";
+import { ClerkLoaded, ClerkLoading, UserButton } from "@clerk/nextjs";
 
-export default function Header() {
+import { HeaderLogo } from "@/components/header-logo";
+import { Navigation } from "@/components/navigation";
+import { WelcomeMsg } from "@/components/welcome-msg";
+import { Filters } from "@/components/filters";
+
+export const Header = () => {
   return (
     <header className="bg-gradient-to-b from-blue-700 to-blue-500 px-4 py-8 lg:px-14 pb-36">
       <div className="max-w-screen-2xl mx-auto">
@@ -15,15 +16,15 @@ export default function Header() {
             <Navigation />
           </div>
           <ClerkLoaded>
-          <UserButton afterSignOutUrl="/"/>
+            <UserButton afterSignOutUrl="/" />
           </ClerkLoaded>
-       <ClerkLoading>
-        <Loader2 className="size-8 animate-spin text-slate-100"/>
-       </ClerkLoading>
+          <ClerkLoading>
+            <Loader2 className="size-8 animate-spin text-slate-400" />
+          </ClerkLoading>
         </div>
-
-        <WelcomeMsg/>
+        <WelcomeMsg />
+        <Filters />
       </div>
     </header>
   );
-}
+};
