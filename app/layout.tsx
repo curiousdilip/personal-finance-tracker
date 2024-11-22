@@ -10,8 +10,16 @@ import { SheetProvider } from "@/providers/sheet-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Finance Sass",
-  description: "This is your Financial Service",
+  title: "Personal Finance Tracker",
+  description: "This is my personal finance tracker made with the help of tutorial on youtube",
+  openGraph: {
+    images: [
+      {
+        url: "https://finance.dilipmaurya.in/dashboard.png", 
+        alt: "dashboard image", // optional
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
